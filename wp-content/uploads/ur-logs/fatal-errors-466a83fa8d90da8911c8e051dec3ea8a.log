@@ -60,3 +60,21 @@
 
 2024-04-19T17:44:18-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/csv.php on line 555
 
+2024-04-19T18:03:57-04:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/search.php on line 64
+
+2024-04-19T18:04:01-04:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/search.php on line 64
+
+2024-04-19T18:04:02-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/search.php on line 64
+
+2024-04-19T18:04:02-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/search.php on line 64
+
+2024-04-19T18:04:09-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/csv.php on line 536
+
+2024-04-19T18:04:22-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/search.php on line 64
+
+2024-04-19T18:04:28-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/csv.php on line 546
+
+2024-04-19T18:04:29-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/image-sizes.php on line 197
+
+2024-04-19T18:04:31-04:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 2097152 bytes) in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/csv.php on line 546
+
