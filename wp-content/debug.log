@@ -1,0 +1,508 @@
+[19-Apr-2024 20:15:56 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:16:09 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:16:14 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:16:34 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:17:50 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:17:55 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:18:36 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:18:40 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:18:53 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:18:56 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:23 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:24 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:34 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:37 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:38 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:38 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:44 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:20:45 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:22:19 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:22:26 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:23:44 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:23:49 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:23:53 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:00 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:13 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:24 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:29 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:39 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:47 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:48 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:49 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:56 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>
+CREATE TABLE wp_user_registration_sessions (
+  session_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  session_key char(32) NOT NULL,
+  session_value longtext NOT NULL,
+  session_expiry BIGINT UNSIGNED NOT NULL,
+  PRIMARY KEY  (session_key),
+  UNIQUE KEY session_id (session_id)
+) </p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: Cannot combine AUTOINCREMENT and multiple primary keys in SQLite.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-admin/includes/upgrade.php(71): WP_SQLite_DB->query('\nCREATE TABLE w...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-install.php(527): dbDelta(Array)
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-install.php(140): UR_Install::create_tables()
+#4 /wordpress/wp-includes/class-wp-hook.php(3): UR_Install::install(false)
+#5 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#6 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#7 /wordpress/wp-admin/includes/plugin.php(2): do_action('activate_user-r...', false)
+#8 /wordpress/wp-admin/includes/ajax-actions.php(2): activate_plugin('user-registrati...')
+#9 /wordpress/wp-includes/class-wp-hook.php(3): wp_ajax_activate_plugin('')
+#10 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters('', Array)
+#11 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#12 /wordpress/wp-admin/admin-ajax.php(2): do_action('wp_ajax_activat...')
+#13 {main}</pre>
+ for query 
+CREATE TABLE wp_user_registration_sessions (
+  session_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  session_key char(32) NOT NULL,
+  session_value longtext NOT NULL,
+  session_expiry BIGINT UNSIGNED NOT NULL,
+  PRIMARY KEY  (session_key),
+  UNIQUE KEY session_id (session_id)
+)  made by do_action('wp_ajax_activate-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_activate_plugin, activate_plugin, do_action('activate_user-registration/user-registration.php'), WP_Hook->do_action, WP_Hook->apply_filters, UR_Install::install, UR_Install::create_tables, dbDelta, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:24:59 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/plugins.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:24:59 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:59 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/index.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:24:59 UTC] PHP Deprecated:  Function print_emoji_styles is deprecated since version 6.4.0! Use wp_enqueue_emoji_styles instead. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:24:59 UTC] PHP Deprecated:  Function wp_admin_bar_header is deprecated since version 6.4.0! Use wp_enqueue_admin_bar_header_styles instead. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:25:01 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:06 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/plugins.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:06 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:25:08 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin-ajax.php(2): require_once('/wordpress/wp-l...')
+#13 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:11 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/plugins.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:12 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/plugins.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:13 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/edit.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:20 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/plugins.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:25 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin-ajax.php(2): require_once('/wordpress/wp-l...')
+#13 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:38 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin.php(2): require_once('/wordpress/wp-l...')
+#13 /wordpress/wp-admin/index.php(2): require_once('/wordpress/wp-a...')
+#14 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:39 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin-ajax.php(2): require_once('/wordpress/wp-l...')
+#13 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:40 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin-ajax.php(2): require_once('/wordpress/wp-l...')
+#13 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[19-Apr-2024 20:25:44 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = :param0  | parameters: 1</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 3493 in Function <code>handle_error</code>. Error message was: SQLSTATE[HY000]: General error: 1 no such table: wp_user_registration_sessions.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /wordpress/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SELECT session_...')
+#2 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(331): wpdb->get_var('SELECT session_...')
+#3 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(206): UR_Session_Handler->get_session(1, Array)
+#4 /wordpress/wp-content/plugins/user-registration/includes/class-ur-session-handler.php(90): UR_Session_Handler->get_session_data()
+#5 /wordpress/wp-content/plugins/user-registration/user-registration.php(325): UR_Session_Handler->__construct()
+#6 /wordpress/wp-includes/class-wp-hook.php(3): UserRegistration->init('')
+#7 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters(NULL, Array)
+#8 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#9 /wordpress/wp-settings.php(2): do_action('init')
+#10 /wordpress/wp-config.php(104): require_once('/wordpress/wp-s...')
+#11 /wordpress/wp-load.php(2): require_once('/wordpress/wp-c...')
+#12 /wordpress/wp-admin/admin-ajax.php(2): require_once('/wordpress/wp-l...')
+#13 {main}</pre>
+ for query SELECT session_value FROM `wp_user_registration_sessions` WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UserRegistration->init, UR_Session_Handler->__construct, UR_Session_Handler->get_session_data, UR_Session_Handler->get_session, WP_SQLite_DB->query, WP_SQLite_DB->print_error
